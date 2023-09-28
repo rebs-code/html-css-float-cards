@@ -3,3 +3,41 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/*TYPO
+******/ 
+
+body {
+    font-family: 'Fredoka', sans-serif;
+    
+}
+
+h1 {
+    color: #e53170;
+    padding-bottom: 70px;
+    font-size: 50px;
+}
+
+header {
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightcoral;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+main {
+    max-width: 1130px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1000px;
+    background-color: aqua;
+    padding: 20px;
+    
+}
+
+
+
+
+
