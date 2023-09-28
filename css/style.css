@@ -27,7 +27,6 @@ header {
     max-width: 1130px;
     margin-left: auto;
     margin-right: auto;
-    background-color: lightcoral;
     padding-bottom: 50px;
     text-align: center;
 }
@@ -37,25 +36,46 @@ main {
     margin-left: auto;
     margin-right: auto;
     height: 1000px;
-    background-color: aqua;
     padding: 20px;
 }
 
 .card {
     height: 100px;
     width: calc(100% / 3 - 40px);
-    
     margin: 20px;
     background-color: #0f0e17;
-    border: #e53170 solid 1px;
     float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.card h2 {
+    color: white;
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.card div {
+    padding: 15px;
+}
+
+.card p, a {
+    color: white;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #63cbf2;
 }
 
 img {
 	display:block;
     float: left;
     height: 100%;
+    margin-right: 10px;
 }
+
 
 
 
