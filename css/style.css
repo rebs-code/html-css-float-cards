@@ -41,14 +41,20 @@ main {
     padding: 20px;
 }
 
-main div {
+.card {
     height: 100px;
     width: calc(100% / 3 - 40px);
-    padding: 20px;
+    
     margin: 20px;
     background-color: #0f0e17;
     border: #e53170 solid 1px;
     float: left;
+}
+
+img {
+	display:block;
+    float: left;
+    height: 100%;
 }
 
 
