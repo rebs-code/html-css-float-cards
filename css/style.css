@@ -59,15 +59,18 @@ main {
     padding: 15px;
 }
 
-.card p, a {
+.card p {
     color: white;
     font-size: 12px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
 a {
     color: #63cbf2;
     font-family: 'Fredoka', sans-serif;
+    text-decoration: none;
+    font-weight: 400;
 }
 
 img {
